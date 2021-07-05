@@ -1,0 +1,21 @@
+.table {
+  margin: 15px auto;
+  width: 1200px;
+  font-size: 12px;
+  background-color: #ffffff;
+  border-collapse: collapse;
+  outline: #c0c0c0 solid 10px;
+}
+
+th {
+  height: 35px ;
+  padding: 5px 10px;
+  border: black solid 1px;
+  text-align: start;
+}
+
+td {
+  border: black solid 1px;
+  padding: 5px 10px;
+  text-align: center;
+}

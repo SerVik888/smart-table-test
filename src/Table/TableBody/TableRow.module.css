@@ -1,0 +1,71 @@
+.allRow {
+    background-color: blanchedalmond;
+}
+
+.tableRow {
+    display: flex;
+    flex-direction: column;
+    width: 1200px;
+    border-collapse: collapse;
+}
+.tableRow tr {
+    margin: -1px 0 0;
+} 
+
+.sourceColumn {
+    min-width: 214px;
+}
+.sourceColumnTitle {
+    display:flex;
+    align-items: center;
+}
+.titleItem {
+    font-size: 10px;
+    font-weight: normal;
+    color:grey;
+}
+.trafficColumn {
+    min-width: 519px;
+}
+.salesColumn {
+    min-width: 234px;
+}
+.targetColumn {
+    min-width: 148px;
+}
+
+.tableItem {
+    display: flex;
+    justify-content: space-between;
+}
+.tableItem span {
+    flex:1 1 30px;
+}
+
+.tableItem td {
+     border: none;
+}
+
+.btn {
+    width: 15px;
+    height: 15px
+}
+.btn img{
+    width: 15px;
+    height: 15px;
+}
+.btn img:hover {
+    cursor: pointer;
+    box-shadow: 0 0 1px;
+    background-color: grey;
+}
+
+.icon img {
+    margin: 0 5px 0 5px;
+    width: 15px;
+    height: 15px;
+}
+
+.bgcDarkGrey {
+    background-color: #d3d2d2;
+}

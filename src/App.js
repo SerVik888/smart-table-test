@@ -1,24 +1,22 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import Table from './Table/Table';
 
-function App() {
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <div className="appWrapper">
+            {/* <SearchBar filterTable={props.filterTable}/> */}
+            <Table
+            // data={props.data}
+            //        sortMethod={props.sortMethod}
+            //        reverseToggler={props.reverseToggler}
+            //        searchQuery={props.searchQuery}
+            //        sortTable={props.sortTable}
+            //        toggleModal={props.toggleModal}
+            //        getData={props.getData}
+                   />
+        </div>
   );
 }
 

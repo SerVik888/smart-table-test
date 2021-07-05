@@ -1,0 +1,81 @@
+thead {
+    display: block;
+}
+
+.tableHeadRow {
+    color:rgb(141, 0, 0);
+}
+.tableHeadRow th{
+    position: relative;
+    padding-bottom: 0;
+}
+.tableHeadRow img{
+    margin-right: 5px;
+    position: relative;
+    width: 15px;
+}
+
+.tableSubHeadRow img{
+    margin:0 0 -1px 3px;
+    width: 10px;
+    height: 10px;
+}
+.sourceColumn {
+    min-width: 214px;
+}
+.trafficColumn {
+    min-width: 519px;
+}
+.salesColumn {
+    min-width: 234px;
+}
+.targetColumn {
+    min-width: 148px;
+}
+
+.title {
+    margin: 3px 3px 3px 0;
+    display: flex;
+}
+.titleItem {
+    font-size: 10px;
+    font-weight: normal;
+    color:grey;
+}
+
+.subTitle {
+    display: flex;
+    justify-content: space-between;
+}
+.subTitle div {
+    flex:1 1 30px;
+    margin: auto 10px;
+    font-weight: bold;
+}
+.subTitle div:hover {
+    cursor: pointer;
+    color:rgb(141, 0, 0)
+}
+
+.subTitleItem div {
+    margin: 0;
+    display: flex;
+    font-size: 10px;
+    font-weight: normal;
+}
+.subTitleItem a{
+    margin:0 0 0 5px;
+    text-decoration: none;
+}
+
+.settings {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.settings img{
+    display: block;
+    margin: 3px;
+    width: 10px;
+    height: 10px;
+}
