@@ -19,3 +19,6 @@
 - react
 - react-redux
 - redux-thunk
+
+Автор: Сафонов Сергей\
+Почта: [sergey_safonov86@inbox.ru](mailto:sergey_safonov86@inbox.ru)
